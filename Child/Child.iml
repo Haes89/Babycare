@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/target/classes" />
-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <output url="file://$MODULE_DIR$/../Babycare/Child/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../Babycare/Child/target/test-classes" />
     <content url="file://$MODULE_DIR$/../Babycare/Child">
       <sourceFolder url="file://$MODULE_DIR$/../Babycare/Child/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../Babycare/Child/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../Babycare/Child/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../Babycare/Child/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: javax.jdo:jdo-api:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.transaction:jta:1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.datanucleus:datanucleus-core:5.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.datanucleus:datanucleus-api-jdo:5.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.datanucleus:datanucleus-rdbms:5.2.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.jdo:jdo2-api:2.3-eb" level="project" />
+    <orderEntry type="library" name="Maven: javax.transaction:transaction-api:1.1" level="project" />
   </component>
 </module>
