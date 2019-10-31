@@ -32,7 +32,7 @@
 		{
 
 
-			// System.out.println( "\n" + "(debug) Winplate render" );
+			/* System.out.println( "\n" + "(debug) Winplate render" ); */
 
 
 
@@ -48,7 +48,7 @@
 
 
 		
-			root.getStylesheets().add("css/layout.css");
+			root.getStylesheets().add("Graph/css/layout.css");
 
 		
 			plate.show();
