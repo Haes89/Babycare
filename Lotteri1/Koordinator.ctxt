@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Koordinator
+comment0.text=\ Klassen\ Koordinator\ implementerad\ fr\u00E5n\ analys\r\n\ \ av\ det\ enkla\ lotterisystemet\ efter\ mindre\r\n\ \ design-\ och\ implementationsbeslut.\r\n\ \ Koordinatorn\ styr\ och\ samordnar\ aktiviteterna\ i\ lotterisystemet.\r\n\ \ Fr\u00E5gor\ om\ systembeteende\ och\ sekvenser\ hanteras\ h\u00E4r.\r\n\ \ (C)\ Genuine\ Systems\r\n
+comment1.params=lb
+comment1.target=Koordinator(Lottbok)
+comment1.text=\ Initierar\ koordinatorobjektet\ med\ dess\ lottbok.\r\n\r\n
+comment2.params=
+comment2.target=void\ starta()
+comment2.text=\ Startpunkten\ f\u00F6r\ koordinatorn\ och\ d\u00E4rmed\ det\ s\u00E4tt\ som\r\n\ applikationen\ anv\u00E4nder\ f\u00F6r\ att\ k\u00F6ra\ ig\u00E5ng\ allting\ fr\u00E5n\ main.\r\n
+comment3.params=antalLotter\ namn\ tel
+comment3.target=void\ utforForsaljning(int,\ java.lang.String,\ java.lang.String)
+comment3.text=\ Driver\ anv\u00E4ndningsfallet\ Lottf\u00F6rs\u00E4ljning.\ Se\ motsvarande\ sekvensdiagram.\r\n\r\n
+comment4.params=antalVinster
+comment4.target=void\ utforVinstdragning(int)
+comment4.text=\ Driver\ anv\u00E4ndningsfallet\ Vinstdragning.\ Se\ motsvarande\ sekvensdiagram.\r\n\r\n
+comment5.params=oi
+comment5.target=void\ setOperatorsgransyta(Operatorsgransyta)
+comment5.text=\ Kopplar\ koordinatorn\ till\ en\ anv\u00E4ndargr\u00E4nsyta.\r\n\r\n
+numComments=6

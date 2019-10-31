@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Operatorsgransyta
+comment1.params=koord
+comment1.target=Operatorsgransyta(Koordinator)
+comment2.params=
+comment2.target=void\ korMeny()
+comment2.text=\r\n\ N\u00E4r\ systemet\ startas\ i\ koordinatorn,\ k\u00F6rs\ menyn.\ Se\ "Lotteridesign\ 1".\r\n
+comment3.params=
+comment3.target=int\ fragaLottantal()
+comment3.text=\r\n\ Tj\u00E4nsten\ f\u00F6r\ att\ f\u00E5\ ett\ lottantal\ fr\u00E5n\ anv\u00E4ndaren\ enligt\ interaktionsdiagrammen.\r\n
+comment4.params=namnet\ telNr
+comment4.target=void\ fragaPersUppg(java.lang.StringBuffer,\ java.lang.StringBuffer)
+comment4.text=\r\n\ Tj\u00E4nsten\ f\u00F6r\ att\ f\u00E5\ personuppgifter\ fr\u00E5n\ anv\u00E4ndaren\ enligt\ interaktionsdiagrammen.\r\n
+comment5.params=
+comment5.target=void\ geRegbekraftelse()
+comment5.text=\r\n\ Bekr\u00E4ftelse\ av\ att\ en\ f\u00F6rs\u00E4ljning\ \u00E4r\ registrerad.\r\n
+comment6.params=
+comment6.target=int\ fragaAntalVinster()
+comment6.text=\r\n\ Efterfr\u00E5gning\ av\ antal\ vinster\ i\ en\ vinstdragning.\r\n
+comment7.params=vinstlott
+comment7.target=void\ visaVinst(Lott)
+comment7.text=\r\n\ Visar\ uppgifter\ om\ en\ vinst;\ lott\ och\ person\ som\ k\u00F6pt\ lotten.\ \r\n\ Hanterar\ att\ vinstlotten\ kan\ vara\ null.\r\n
+comment8.params=buffer
+comment8.target=void\ readLine(java.lang.StringBuffer)
+comment8.text=\r\n\ \ \ En\ privat\ implementationsmetod\ som\ har\ till\ uppgift\ att\ l\u00E4sa\ in\ en\ rad\ med\ tecken.\r\n\ \ \ Den\ l\u00E4mnar\ resultatet\ som\ inneh\u00E5ll\ i\ det\ meds\u00E4nda\ StringBuffer-objektet.\r\n
+numComments=9

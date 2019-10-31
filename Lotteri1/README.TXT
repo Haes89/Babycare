@@ -1,0 +1,1 @@
+Första implementationen av lotterisystemet enligt analysen i bladet "Litet modelleringsexempel".

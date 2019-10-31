@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Lotteri
+comment0.text=\ Klassen\ Lotteri\ implementerad\ fr\u00E5n\ analys\r\n\ \ av\ det\ enkla\ lotterisystemet\ efter\ mindre\r\n\ \ design-\ och\ implementationsbeslut.\r\n\ \ Lotteri\ \u00E4r\ applikationsklassen\ d\u00E4r\ applikationsstart\ och\r\n\ \ f\u00F6rberedande\ kod\ f\u00F6r\ k\u00F6rningen\ finns.\r\n\ \ (C)\ Genuine\ Systems\r\n
+comment1.params=storlek
+comment1.target=Lotteri(int)
+comment1.text=\r\n\ Konstruktorn\ har\ till\ uppgift\ att\ skapa\ intial\ objektstruktur.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Applikationens\ startpunkt.\r\n
+comment3.params=
+comment3.target=void\ exekvera()
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Lottbok
+comment1.params=enPerson\ antal
+comment1.target=void\ regForsaljning(Person,\ int)
+comment1.text=Registrering\ av\ visst\ antal\ lotter\ till\ en\ person.
+comment2.params=
+comment2.target=Lott\ draVinst()
+comment2.text=\r\n\ Plockar\ fram\ en\ s\u00E5ld\ lott\ som\ inte\ tidigare\ givit\ vinst.\r\n
+comment3.params=antalLotter
+comment3.target=Lottbok(int)
+comment3.text=\r\n\ Lottboken\ fylls\ med\ ett\ antal\ lotter\ i\ slumpvis\ ordning\ n\u00E4r\ den\ skapas.\r\n
+numComments=4

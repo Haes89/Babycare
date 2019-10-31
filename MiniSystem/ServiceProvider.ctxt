@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ServiceProvider
+comment0.text=\r\n\ Provides\ different\ usable\ services\ within\ the\ system.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=aMath
+comment1.target=ServiceProvider(Matematiker)
+comment2.params=aMath
+comment2.target=void\ setMathemagician(Matematiker)
+comment3.params=numA\ numB
+comment3.target=int\ addTwoDigits(int,\ int)
+comment4.params=numA\ numB
+comment4.target=long\ powerTo(int,\ int)
+numComments=5
