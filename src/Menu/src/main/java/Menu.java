@@ -1,47 +1,44 @@
-import javafx.scene.Parent;
-
+package Menu.src.main.java;
 import java.util.Scanner;
 
 public class Menu {
-    public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    Child.src.main.java.Child goblin = new Child.src.main.java.Child();
+    Child.src.main.java.Parent fool = new Child.src.main.java.Parent();
+
+
+public void runMenu() {
 
     boolean running = true;
-    Scanner scan = new Scanner(System.in);
-    int val = 0;
-    int text = 0;
-    Parent parent = new Parent();
-    Child child = new Child();
 
-    do
-    {
-        
+    do {
+
         System.out.println("\nVänlig välj alternativ\n");
         System.out.println("N - Skriv in ditt namn");
         System.out.println("B - Lägg till barn");
         System.out.println("A - Avsluta appligationen");
         System.out.print("\nAnge val: ");
 
-        val = scan.next().charAt(0); //Avläs första position endast.
-        text = scan.next().charAt(40);
+        char val = scan.next().charAt(0); //Avläs första position endast.
 
 
         switch ((char) val) {
             case 'N':                 // Write the name of the user in the program
             case 'n':
                 String nick = scan.next();
-                parent.parentName(nick);
+                fool.setName(nick);
                 break;
 
             case 'B':                 // adding a child to the system.
             case 'b':
                 String name = scan.next();
-                child.addName(name);
+                goblin.addName(name);
 
-                float fat = scan.next();
-                child.setWeight(fat);
+                float fat = scan.nextFloat();
+                goblin.setWeight(fat);
 
-                int tall = scan.next();
-                child.setLength(tall);
+                int tall = scan.nextInt();
+                goblin.setLength(tall);
 
 
                 break;
@@ -50,16 +47,15 @@ public class Menu {
             case 'a':
 
                 break;
+            default:System.out.println("\nPress the right key you git!\n");
         }
     }
-    while(running = true);
-
-
-
-
-    }
-
-
-
+    while (running);
+}
 
 }
+
+
+
+
+

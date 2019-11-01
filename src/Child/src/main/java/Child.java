@@ -1,11 +1,14 @@
+package Child.src.main.java;
+
 import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Child {
-    private String name;
-    private float weight;
-    private int length;
-    private LocalDate DOB;
+
+        private String name;
+        private float weight;
+        private int length;
+        private LocalDate DOB;
 
     Scanner scan = new Scanner(System.in);
 
