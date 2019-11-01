@@ -15,15 +15,27 @@ public class Child {
         this.name = name;
     }
 
-    public float setWeight(float weight) {
+    public void setWeight(float weight) {
         this.weight = weight;
     }
 
-    public int setLength(int length) {
+    public void setLength(int length) {
         this.length = length;
     }
 
     public LocalDate getDOB() {
         return DOB;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+
+    public int getLength() {
+        return length;
     }
 }
